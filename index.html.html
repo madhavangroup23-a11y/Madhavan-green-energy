@@ -86,10 +86,8 @@
             
             <!-- Brand Logo -->
             <a href="#home" class="flex items-center gap-3 group">
-                <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-brand-500 to-solar-400 p-0.5 shadow-lg shadow-brand-500/20 group-hover:scale-105 transition-transform">
-                    <div class="w-full h-full bg-brand-dark rounded-[10px] flex items-center justify-center">
-                        <i data-lucide="sun" class="w-6 h-6 text-solar-400"></i>
-                    </div>
+                <div class="h-10 flex items-center justify-center">
+                    <img src="logo.png" alt="Madhavan Group Logo" class="h-10 w-auto object-contain group-hover:scale-105 transition-transform" onerror="this.onerror=null; this.src='assets/logo.png';">
                 </div>
                 <div>
                     <span class="font-heading text-xl font-bold tracking-tight text-white block leading-none">MADHAVAN <span class="text-solar-400">GROUP</span></span>
@@ -100,6 +98,7 @@
             <!-- Desktop Navigation -->
             <nav class="hidden md:flex items-center gap-8 text-sm font-medium text-slate-300">
                 <a href="#about" class="hover:text-emerald-400 transition-colors">About Us</a>
+                <a href="#leadership" class="hover:text-emerald-400 transition-colors">Leadership</a>
                 <a href="#services" class="hover:text-emerald-400 transition-colors">Core Capabilities</a>
                 <a href="#portfolio" class="hover:text-emerald-400 transition-colors">Solar Portfolio</a>
                 <a href="#ma-jv" class="hover:text-emerald-400 transition-colors">M&A & JVs</a>
@@ -123,6 +122,7 @@
         <!-- Mobile Menu Dropdown -->
         <div id="mobile-menu" class="hidden md:hidden bg-brand-dark border-b border-white/10 px-6 py-6 space-y-4">
             <a href="#about" class="block text-slate-300 hover:text-emerald-400 font-medium py-2">About Us</a>
+            <a href="#leadership" class="block text-slate-300 hover:text-emerald-400 font-medium py-2">Leadership</a>
             <a href="#services" class="block text-slate-300 hover:text-emerald-400 font-medium py-2">Core Capabilities</a>
             <a href="#portfolio" class="block text-slate-300 hover:text-emerald-400 font-medium py-2">Solar Portfolio</a>
             <a href="#ma-jv" class="block text-slate-300 hover:text-emerald-400 font-medium py-2">M&A & JVs</a>
@@ -133,30 +133,25 @@
 
     <!-- Hero Section -->
     <section id="home" class="relative pt-32 pb-20 md:pt-44 md:pb-32 hero-bg overflow-hidden">
-        <!-- Decorative Glow Orbs -->
         <div class="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-brand-500/10 rounded-full blur-3xl pointer-events-none"></div>
         <div class="absolute top-1/3 right-10 w-[300px] h-[300px] bg-solar-400/10 rounded-full blur-3xl pointer-events-none"></div>
 
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
             <div class="max-w-4xl mx-auto text-center space-y-6">
                 
-                <!-- Badge -->
                 <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full glass-card border-emerald-500/30 text-emerald-300 text-xs sm:text-sm font-semibold tracking-wide">
                     <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
                     Utility-Scale Solar IPP & Joint-Venture Platform
                 </div>
 
-                <!-- Main Heading -->
                 <h1 class="font-heading text-4xl sm:text-6xl lg:text-7xl font-extrabold tracking-tight leading-tight text-white">
                     Accelerating India’s Energy Transition Through <span class="gradient-text">Utility-Scale Solar Assets</span>
                 </h1>
 
-                <!-- Subheadline -->
                 <p class="text-lg sm:text-xl text-slate-300 font-normal leading-relaxed max-w-3xl mx-auto">
                     Madhavan Group (Madhavan Green Energy / MGE) specializes in turnkey utility solar power development, strategic M&A acquisitions, and large-scale IPP portfolio execution across high-yield states.
                 </p>
 
-                <!-- Action Buttons -->
                 <div class="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4">
                     <a href="#ma-jv" class="w-full sm:w-auto bg-gradient-to-r from-brand-500 to-emerald-600 hover:from-brand-600 hover:to-emerald-700 text-white font-semibold px-8 py-4 rounded-xl shadow-xl shadow-brand-500/20 transition-all flex items-center justify-center gap-3 text-base">
                         <span>Explore JV & Investment Opportunities</span>
@@ -168,7 +163,6 @@
                     </a>
                 </div>
 
-                <!-- Strategic Target Highlight Banner -->
                 <div class="pt-8 flex flex-wrap justify-center items-center gap-6 text-xs sm:text-sm text-slate-400 font-medium">
                     <span class="flex items-center gap-2"><i data-lucide="check-circle" class="w-4 h-4 text-emerald-400"></i> PM-KUSUM & MSKVY 2.0 Focused</span>
                     <span class="flex items-center gap-2"><i data-lucide="check-circle" class="w-4 h-4 text-emerald-400"></i> 100% Acquisitions & 60:40 JVs</span>
@@ -208,12 +202,11 @@
         </div>
     </section>
 
-    <!-- About Section & Corporate Leadership -->
+    <!-- About Section -->
     <section id="about" class="py-20 md:py-28 relative">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
                 
-                <!-- Left Narrative Column -->
                 <div class="lg:col-span-7 space-y-6">
                     <div class="inline-flex items-center gap-2 text-solar-400 font-semibold text-sm tracking-wider uppercase">
                         <i data-lucide="shield-check" class="w-4 h-4"></i> About Madhavan Group
@@ -224,14 +217,13 @@
                     </h2>
                     
                     <p class="text-slate-300 leading-relaxed">
-                        **Madhavan Group** (Madhavan Green Energy / MGE) operates at the strategic intersection of renewable energy development, project acquisitions, and IPP asset expansion. Headquartered in Indore, Madhya Pradesh, we originate, develop, and acquire high-yield solar assets to power India’s clean grid transition.
+                        <strong>Madhavan Group</strong> (Madhavan Green Energy / MGE) operates at the strategic intersection of renewable energy development, project acquisitions, and IPP asset expansion. Headquartered in Indore, Madhya Pradesh, we originate, develop, and acquire high-yield solar assets to power India’s clean grid transition.
                     </p>
 
                     <p class="text-slate-300 leading-relaxed">
-                        Under the leadership of Founder **Anshu Pachauri**, MGE has cultivated robust competencies in government solar tender executions (including PM-KUSUM and Maharashtra's flagship MSKVY 2.0 scheme), regulatory approvals, land banking, grid interconnectivity, and long-term financial structuring.
+                        Under leadership excellence, MGE has cultivated robust competencies in government solar tender executions (including PM-KUSUM and Maharashtra's flagship MSKVY 2.0 scheme), regulatory approvals, land banking, grid interconnectivity, and long-term financial structuring.
                     </p>
 
-                    <!-- Core Strengths Check Grid -->
                     <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-4">
                         <div class="flex items-start gap-3">
                             <div class="p-2 rounded-lg bg-emerald-500/10 text-emerald-400 shrink-0">
@@ -256,19 +248,18 @@
 
                 </div>
 
-                <!-- Right Leadership & HQ Card -->
                 <div class="lg:col-span-5">
                     <div class="glass-card p-8 rounded-2xl border border-white/10 relative overflow-hidden">
                         <div class="absolute -right-10 -bottom-10 w-40 h-40 bg-brand-500/10 rounded-full blur-2xl"></div>
 
                         <div class="flex items-center gap-4 mb-6">
                             <div class="w-16 h-16 rounded-full bg-gradient-to-tr from-brand-500 to-solar-400 flex items-center justify-center font-heading text-2xl font-bold text-white shadow-md">
-                                AP
+                                MGE
                             </div>
                             <div>
-                                <h3 class="font-heading text-xl font-bold text-white">Anshu Pachauri</h3>
-                                <p class="text-sm text-solar-400 font-medium">Founder & Managing Director</p>
-                                <span class="text-xs text-slate-400">Madhavan Group / MGE</span>
+                                <h3 class="font-heading text-xl font-bold text-white">Madhavan Group</h3>
+                                <p class="text-sm text-solar-400 font-medium">Madhavan Green Energy</p>
+                                <span class="text-xs text-slate-400">Utility-Scale Developer</span>
                             </div>
                         </div>
 
@@ -297,6 +288,73 @@
         </div>
     </section>
 
+    <!-- NEW: Dedicated Executive Leadership (Founder & Co-Founder) Section -->
+    <section id="leadership" class="py-20 bg-slate-950/60 relative border-t border-white/5">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            
+            <div class="text-center max-w-3xl mx-auto mb-16 space-y-4">
+                <span class="text-solar-400 font-semibold text-sm tracking-wider uppercase">Executive Vision</span>
+                <h2 class="font-heading text-3xl sm:text-4xl font-bold text-white">Meet Our Leadership Team</h2>
+                <p class="text-slate-400">Driving strategic direction, renewable engineering, and project finance execution.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+                
+                <!-- Founder Card -->
+                <div class="glass-card glass-card-hover p-8 rounded-3xl border border-white/10 relative overflow-hidden transition-all duration-300">
+                    <div class="flex flex-col sm:flex-row items-center sm:items-start gap-6 text-center sm:text-left">
+                        <div class="w-24 h-24 rounded-2xl bg-gradient-to-tr from-brand-500 to-solar-400 p-0.5 shrink-0 shadow-xl">
+                            <div class="w-full h-full bg-brand-dark rounded-[14px] flex items-center justify-center font-heading text-2xl font-bold text-white">
+                                AP
+                            </div>
+                        </div>
+                        <div class="space-y-3">
+                            <div>
+                                <h3 class="font-heading text-2xl font-bold text-white">Anshu Pachauri</h3>
+                                <p class="text-sm text-solar-400 font-semibold tracking-wide uppercase">Founder & Managing Director</p>
+                            </div>
+                            <p class="text-sm text-slate-300 leading-relaxed">
+                                Spearheading utility-scale solar asset acquisitions, state regulatory approvals (MSKVY 2.0 / PM-KUSUM), and long-term project financing strategy across key renewable corridors.
+                            </p>
+                            <div class="pt-2 flex items-center justify-center sm:justify-start gap-4 text-slate-400 text-sm">
+                                <a href="#contact" class="flex items-center gap-1.5 hover:text-emerald-400 transition-colors">
+                                    <i data-lucide="phone" class="w-4 h-4"></i> +91 9202981109
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Co-Founder Card -->
+                <div class="glass-card glass-card-hover p-8 rounded-3xl border border-white/10 relative overflow-hidden transition-all duration-300">
+                    <div class="flex flex-col sm:flex-row items-center sm:items-start gap-6 text-center sm:text-left">
+                        <div class="w-24 h-24 rounded-2xl bg-gradient-to-tr from-emerald-500 to-solar-400 p-0.5 shrink-0 shadow-xl">
+                            <div class="w-full h-full bg-brand-dark rounded-[14px] flex items-center justify-center font-heading text-2xl font-bold text-white">
+                                CF
+                            </div>
+                        </div>
+                        <div class="space-y-3">
+                            <div>
+                                <h3 class="font-heading text-2xl font-bold text-white">Co-Founder Desk</h3>
+                                <p class="text-sm text-emerald-400 font-semibold tracking-wide uppercase">Co-Founder & Executive Director</p>
+                            </div>
+                            <p class="text-sm text-slate-300 leading-relaxed">
+                                Directing engineering operations, turnkey land banking, sub-station grid evacuation approvals, and on-ground project commissioning timelines.
+                            </p>
+                            <div class="pt-2 flex items-center justify-center sm:justify-start gap-4 text-slate-400 text-sm">
+                                <a href="#contact" class="flex items-center gap-1.5 hover:text-emerald-400 transition-colors">
+                                    <i data-lucide="mail" class="w-4 h-4"></i> Corporate Desk
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
     <!-- Core Services & Focus Areas -->
     <section id="services" class="py-20 bg-slate-950/50 relative">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -307,10 +365,8 @@
                 <p class="text-slate-400">From early-stage regulatory clearances to full commercial operation and M&A integration.</p>
             </div>
 
-            <!-- Services Grid -->
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
                 
-                <!-- Service 1 -->
                 <div class="glass-card glass-card-hover p-6 rounded-2xl transition-all duration-300">
                     <div class="w-12 h-12 rounded-xl bg-brand-500/10 text-brand-500 flex items-center justify-center mb-6">
                         <i data-lucide="sun-medium" class="w-6 h-6"></i>
@@ -321,29 +377,26 @@
                     </p>
                 </div>
 
-                <!-- Service 2 -->
                 <div class="glass-card glass-card-hover p-6 rounded-2xl transition-all duration-300">
                     <div class="w-12 h-12 rounded-xl bg-solar-400/10 text-solar-400 flex items-center justify-center mb-6">
                         <i data-lucide="landmark" class="w-6 h-6"></i>
                     </div>
                     <h3 class="font-heading text-lg font-bold text-white mb-2">Government Tender Execution</h3>
                     <p class="text-sm text-slate-400 leading-relaxed">
-                        Specialized execution of state & national schemes like **MSKVY 2.0** and **PM-KUSUM**, obtaining LOAs, PPAs, and MSEDCL clearances.
+                        Specialized execution of state & national schemes like <strong>MSKVY 2.0</strong> and <strong>PM-KUSUM</strong>, obtaining LOAs, PPAs, and MSEDCL clearances.
                     </p>
                 </div>
 
-                <!-- Service 3 -->
                 <div class="glass-card glass-card-hover p-6 rounded-2xl transition-all duration-300">
                     <div class="w-12 h-12 rounded-xl bg-emerald-400/10 text-emerald-400 flex items-center justify-center mb-6">
                         <i data-lucide="handshake" class="w-6 h-6"></i>
                     </div>
                     <h3 class="font-heading text-lg font-bold text-white mb-2">M&A & Joint Ventures</h3>
                     <p class="text-sm text-slate-400 leading-relaxed">
-                        Structuring strategic **100% asset buyouts** and **60:40 Joint Ventures** for institutional investors and IPP developers looking for ready-to-build portfolios.
+                        Structuring strategic <strong>100% asset buyouts</strong> and <strong>60:40 Joint Ventures</strong> for institutional investors and IPP developers looking for ready-to-build portfolios.
                     </p>
                 </div>
 
-                <!-- Service 4 -->
                 <div class="glass-card glass-card-hover p-6 rounded-2xl transition-all duration-300">
                     <div class="w-12 h-12 rounded-xl bg-amber-400/10 text-amber-400 flex items-center justify-center mb-6">
                         <i data-lucide="pie-chart" class="w-6 h-6"></i>
@@ -358,7 +411,7 @@
         </div>
     </section>
 
-    <!-- M&A and Joint Venture Opportunities (High Intent CTA) -->
+    <!-- M&A and Joint Venture Opportunities -->
     <section id="ma-jv" class="py-20 relative overflow-hidden bg-gradient-to-b from-brand-dark to-emerald-950">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="glass-card p-8 md:p-12 rounded-3xl border-emerald-500/30 relative">
@@ -405,7 +458,6 @@
 
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                 
-                <!-- Project Card 1 -->
                 <div class="glass-card rounded-2xl overflow-hidden border border-white/10 group hover:border-emerald-500/40 transition-all">
                     <div class="h-48 bg-emerald-900/40 relative flex items-center justify-center overflow-hidden">
                         <i data-lucide="sun" class="w-20 h-20 text-solar-400/20 group-hover:scale-110 transition-transform duration-500"></i>
@@ -422,7 +474,6 @@
                     </div>
                 </div>
 
-                <!-- Project Card 2 -->
                 <div class="glass-card rounded-2xl overflow-hidden border border-white/10 group hover:border-emerald-500/40 transition-all">
                     <div class="h-48 bg-emerald-900/40 relative flex items-center justify-center overflow-hidden">
                         <i data-lucide="zap" class="w-20 h-20 text-solar-400/20 group-hover:scale-110 transition-transform duration-500"></i>
@@ -439,7 +490,6 @@
                     </div>
                 </div>
 
-                <!-- Project Card 3 -->
                 <div class="glass-card rounded-2xl overflow-hidden border border-white/10 group hover:border-emerald-500/40 transition-all">
                     <div class="h-48 bg-emerald-900/40 relative flex items-center justify-center overflow-hidden">
                         <i data-lucide="shield" class="w-20 h-20 text-solar-400/20 group-hover:scale-110 transition-transform duration-500"></i>
@@ -465,7 +515,6 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid grid-cols-1 lg:grid-cols-12 gap-12">
                 
-                <!-- Contact Details -->
                 <div class="lg:col-span-5 space-y-8">
                     <div>
                         <span class="text-emerald-400 font-semibold text-sm tracking-wider uppercase">Direct Engagement</span>
@@ -518,17 +567,14 @@
 
                 </div>
 
-                <!-- Interactive Form (HubSpot Auto-Captured) -->
                 <div class="lg:col-span-7">
                     <div class="glass-card p-8 rounded-3xl border border-white/10 relative">
                         
                         <h3 class="font-heading text-xl font-bold text-white mb-2">Investor & Partner Inquiry</h3>
                         <p class="text-xs text-slate-400 mb-6">Fill out the details below. Our corporate team will reach out within 24 hours.</p>
 
-                        <!-- Notification Box -->
                         <div id="form-status" class="hidden mb-6 p-4 rounded-xl text-sm font-medium"></div>
 
-                        <!-- Inquiry Form -->
                         <form id="contact-form" class="space-y-4" onsubmit="handleSimpleSubmit(event)">
                             <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
                                 <div>
@@ -585,11 +631,7 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center justify-between gap-6">
             
             <div class="flex items-center gap-3">
-                <div class="w-8 h-8 rounded-lg bg-gradient-to-tr from-brand-500 to-solar-400 p-0.5">
-                    <div class="w-full h-full bg-brand-dark rounded-[6px] flex items-center justify-center">
-                        <i data-lucide="sun" class="w-4 h-4 text-solar-400"></i>
-                    </div>
-                </div>
+                <img src="logo.png" alt="Madhavan Group Logo" class="h-8 w-auto object-contain" onerror="this.onerror=null; this.src='assets/logo.png';">
                 <span class="font-heading text-lg font-bold text-white">MADHAVAN <span class="text-solar-400">GROUP</span></span>
             </div>
 
@@ -608,10 +650,8 @@
 
     <!-- Scripts -->
     <script>
-        // Initialize Lucide Icons
         lucide.createIcons();
 
-        // Mobile Menu Toggle Script
         const menuBtn = document.getElementById('menu-btn');
         const mobileMenu = document.getElementById('mobile-menu');
 
@@ -619,14 +659,12 @@
             mobileMenu.classList.toggle('hidden');
         });
 
-        // Close mobile menu on anchor click
         document.querySelectorAll('#mobile-menu a').forEach(link => {
             link.addEventListener('click', () => {
                 mobileMenu.classList.add('hidden');
             });
         });
 
-        // Simple Form Submission Handler
         function handleSimpleSubmit(event) {
             const statusDiv = document.getElementById('form-status');
             
@@ -634,7 +672,6 @@
             statusDiv.innerHTML = "Thank you! Your inquiry has been submitted. The Madhavan Group leadership team will contact you shortly.";
             statusDiv.classList.remove('hidden');
 
-            // Scroll status into view
             statusDiv.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
         }
     </script>
